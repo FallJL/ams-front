@@ -1,3 +1,13 @@
+# 给校友系统的同学看：
+## 配置文件
+- 开发环境的配置文件：static\config\index.js
+- 生产环境的配置文件：static\config\index-prod.js
+## 启动/打包
+- 开发环境下启动：npm run dev
+- 打包：npm run build 然后将生成的 dist 目录拷贝到服务器的指定位置，见基本说明文档
+
+
+### 以下是我们所基于的开源项目的原始说明
 ## renren-fast-vue
 - renren-fast-vue基于vue、element-ui构建开发，实现[renren-fast](https://gitee.com/renrenio/renren-fast)后台管理前端功能，提供一套更优的前端解决方案
 - 前后端分离，通过token进行数据交互，可独立部署
