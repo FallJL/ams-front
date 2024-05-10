@@ -120,6 +120,8 @@ export function exDegree (degree) {
     degreeValue = 1
   } else if (degree === '博士') {
     degreeValue = 2
+  } else {
+    degreeValue = 0
   }
 
   return degreeValue
